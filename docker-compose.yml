@@ -10,4 +10,5 @@ services:
     working_dir: /app/code
     shm_size: 1gb #512M
     # just run the container doing nothing
-    entrypoint: ["sh", "-c", "sleep infinity"]
+    #entrypoint: ["sh", "-c", "sleep infinity"]
+    entrypoint: ["node", "index.js"]
