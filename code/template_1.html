@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<iframe id='elem1' src='http://host.docker.internal:4848/single/?appid=C%3A%5CUsers%5CRynhardt%5CDocuments%5CQlik%5CSense%5CApps%5CConsumer%20Sales.qvf&obj=fNGRa&opt=nointeraction&select=clearall' style='border:none;width:500px;height:500px;'></iframe>
+<iframe id='elem2' src='http://host.docker.internal:4848/single/?appid=C%3A%5CUsers%5CRynhardt%5CDocuments%5CQlik%5CSense%5CApps%5CConsumer%20Sales.qvf&obj=akDGX' style='border:none;width:500px;height:500px;'></iframe>
+
+</body>
+<script>
+document.getElementById("elem1").src += window.location.href.split('?')[1];
+</script>
+</html>

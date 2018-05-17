@@ -4,6 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
+    "nodemailer": "^4.6.4",
     "puppeteer": "^0.12.0"
   }
 }
